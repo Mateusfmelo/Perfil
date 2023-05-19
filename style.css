@@ -26,6 +26,7 @@ body {
 }
 
 nav {
+    text-align: center;
     background-color: var(--cor4);
     padding: 10px;
 }
@@ -126,10 +127,6 @@ footer  img {
 }
 
 @media screen and (max-width: 425px) {
-    nav {
-        text-align: center;
-    }
-
     li {
         font-size: 12px;
     }
