@@ -25,13 +25,6 @@ body {
     background-color: var(--cor1);
 }
 
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
-
 nav {
     background-color: var(--cor4);
     padding: 10px;
@@ -63,10 +56,6 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}
-
-main h1 {
-    padding-top: 50px;
 }
 
 main h1, h2 {
