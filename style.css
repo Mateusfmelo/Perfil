@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0:#FFFFFF;
+    --cor1:#8c8c8c;
+    --cor2:#666666;
+    --cor3:#454546;
+    --cor4:#272727;
+    --cor5:#030303;
+    
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', 'Times New Roman', Times, serif;
+    --font-paragrafo: 'Roboto Condensed', 'Times New Roman', Times, serif;
+}
+
+body {
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    color: var(--cor0);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+
+main {
+    text-align: center;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: var(--cor0);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition-duration: 1s;
+}
+
+main h1, h2 {
+    color: var(--cor5);
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main p {
+    font-family: var(--font-paragrafo);
+    color:var(--cor4);
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 3em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+ul {
+    columns: 2;
+    padding-bottom: 30px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+li > a {
+    font-family: var(--font-paragrafo);
+    color: var(--cor5);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+a.externo::after {
+    content: '\00A0\00A0\1F517';
+}
+
+div#projetos a:hover {
+    transition-duration: 0.5s;
+    color: var(--cor0);
+    background-color: var(--cor4);
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+main img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+footer {
+    border-radius: 10px 10px 0px 0px;
+    font-family: var(--font-paragrafo);
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+footer > h3 {
+    color: var(--cor0);
+}
+
+footer  img {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
